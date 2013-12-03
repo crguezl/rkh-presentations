@@ -61,7 +61,7 @@
 
 # Demo! #
 
-<iframe src="/events?" width="980" height="600"></iframe>
+<iframe src="/events" width="980" height="600"></iframe>
 
 .notes Next: Rack
 

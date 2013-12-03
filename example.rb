@@ -40,7 +40,7 @@ end
 
 class Example < Sinatra::Base
   enable :inline_templates, :logging, :static
-  set :public, File.expand_path('../public', __FILE__)
+  set :public_folder, File.expand_path('../public', __FILE__)
   set :subscribers => [], :scope => Scope.binding, :line => 1
 
   def escape(data)
